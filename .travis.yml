@@ -6,7 +6,5 @@ email: false
 jdk:
 - openjdk8
 
-script: ant build
-
 after_success:
 - bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
